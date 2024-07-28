@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --plyr-color-main: #88D66C;
+    --plyr-captions-background: #00000075;
+    --plyr-font-size-badge: 10px;
+    --plyr-font-size-time: var(--plyr-font-size-xlarge);
+    --plyr-tooltip-color: black;
+    --plyr-font-family: "Roboto", sans-serif;
+}
+.plyr__caption {
+    font-size: 30px;
+}
